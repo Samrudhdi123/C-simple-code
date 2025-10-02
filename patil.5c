@@ -1,0 +1,11 @@
+#include<stdio.h>
+int main() {
+    char name[50], hometown[50];
+    printf("Enter your name: ");
+    scanf("%s", name);
+    printf("Where is your hometown? ");
+    scanf("%s", hometown);
+    printf("Hello %s from %s.
+", name, hometown);
+    return 0;
+}
